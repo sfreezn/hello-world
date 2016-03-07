@@ -1,0 +1,878 @@
+html,
+body,
+p,
+header,
+ul,
+.col,
+figure,
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #545454;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: text-bottom;
+}
+
+a {
+    text-decoration: none;
+    color: #545454;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*--------Header-------*/
+
+.header_container2 {
+    background: url(../img/welding4_small.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+}
+
+.container1 {
+    font-size: .895rem;
+    text-transform: uppercase;
+    z-index: 1000;
+    border-bottom: 1px solid #CBFF4D;
+    background: url(../img/kanga_green_fade2.png) top right no-repeat;
+}
+
+.umfg {
+    padding: .25em;
+}
+
+.main_nav {
+    border-top: 1px solid #CBFF4D;
+}
+
+.main_nav_ul {
+    font-family: 'Open Sans', serif;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}
+
+.main_nav_ul li {
+    padding: 1em;
+    margin: 1em;
+}
+
+.main_nav_ul a {
+    color: #fff;
+}
+
+.main_nav_ul a:hover {
+    color: #CBFF4D;
+}
+
+
+/*-----------Page 2------------
+------------Services------------*/
+
+.page2_container1 {
+    font-size: .895rem;
+    text-transform: uppercase;
+    z-index: 1000;
+    border-bottom: 1px solid #CBFF4D;
+    background: url(../img/kanga_green_fade2.png) top right no-repeat;
+    background-color: #545454;
+}
+
+.page2_ag {
+    width: 100%;
+    height: 2em;
+    background-color: #69747C;
+}
+
+.page2_header {
+    background-color: #69747C;
+    color: #CBFF4D;
+    text-align: center;
+}
+
+.page2_header h3 {
+    background-color: #545454;
+    padding: 1em;
+    font-weight: 200;
+}
+
+.page2_header h1 {
+    font-size: 3em;
+    padding: 1em;
+    font-weight: 200;
+}
+
+.page2_ag {
+    height: 20px;
+    width: 100%;
+    background-color: #69747C;
+}
+
+.page2_header h5,
+.page2_header h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    margin: 0;
+}
+
+.page2_header h4 {
+    padding: .5em;
+}
+
+.services_list {
+    background-color: #545454;
+    color: #CBFF4D;
+    padding: 0 .5em;
+}
+
+.services_list h1,
+.services_list h2 {
+    padding: .5em 0;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.services_list ul {
+    padding: .5em 0 2em 3em;
+    list-style: disc;
+}
+
+.services_list ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+/*-----BERMBUSTER------
+------CONTAINER-------*/
+
+.bermbuster {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #545454;
+    color: #CBFF4D;
+}
+
+.bermbuster img {
+    padding: 2em;
+    height: 80%;
+    width: 80%;
+    border-radius: 40px;
+}
+
+.bermbusterwords1 {
+    background-color: #69747C;
+    width: 100%;
+}
+
+.bermbusterwords1 h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.bermbusterwords2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.25em;
+    padding: 1em;
+}
+
+
+/*---------SuperScoop--------- */
+
+.superscoop {
+    background: #69747C;
+    color: #CBFF4D;
+}
+
+.superscoopwords2 {
+    background: #545454;
+    text-align: center;
+}
+
+.superscoopwords2 h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.figimg_scoop {
+    border-radius: 10px;
+    padding-top: .5em;
+}
+
+.figcap_scoop {
+    text-align: center;
+}
+
+.ss_columns {
+    -webkit-columns: 3 200px;
+    -moz-columns: 3 200px;
+    columns: 3 200px;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
+    padding: .5em;
+}
+
+
+/*------Grain Hopper--------*/
+
+.grainhopper {
+    background: #545454;
+    color: #CBFF4D;
+}
+
+.before_after {
+    color: #CBFF4D;
+    text-align: center;
+    padding: .5em;
+}
+
+.grainhopperwords {
+    padding: 2em 0;
+}
+
+.grainhopperwords h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 300;
+    background-color: #69747C;
+}
+
+.gh_columns {
+    -webkit-columns: 2 350px;
+    -moz-columns: 2 350px;
+    columns: 2 350px;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
+    padding: .5em;
+}
+
+.gh_columns img {
+    border-radius: 10px;
+}
+
+.ghimg_before {
+    margin-top: .7em;
+}
+
+
+/*---------John Deer Limb/Brush Guard--*/
+
+div.jd_columns {
+    -webkit-columns: 4 200px;
+    -moz-columns: 4 200px;
+    columns: 4 200px;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
+    padding: .5em;
+}
+
+div.jd_columns img {
+    border: 10px solid #545454;
+}
+
+
+/*--------Second Header---------*/
+
+.header_container2 {
+    position: relative;
+}
+
+.header2_words {
+    font-family: 'Open Sans', serif;
+    text-align: center;
+    color: #FFF;
+    padding-bottom: 3em;
+}
+
+.header2_words h2 {
+    font-size: 2em;
+    padding: .5em 0;
+}
+
+.header2_words h3 {
+    font-family: 'Open Sans', serif;
+    font-weight: 600;
+    font-size: 1em;
+    padding-bottom: .5em;
+}
+
+.header2_words p {
+    font-size: .85em;
+    font-family: 'Open Sans', serif;
+    font-weight: 600;
+}
+
+.license {
+    color: white;
+    font-size: .6em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+
+
+/*-----Our Products and Services--------*/
+
+.columns {
+    background-color: #69747C;
+    color: #CBFF4D;
+}
+
+.columns h1 {
+    text-align: center;
+    padding: 1em 0;
+    font-weight: 300;
+}
+
+.figcol {
+    border-radius: 10px;
+    margin-left: 1em;
+    width: 90%;
+}
+
+.figcapcol {
+    padding: 1em;
+    color: #CBFF4D;
+    text-align: right;
+}
+
+
+/*
+.figcol img {
+    position: relative;
+}
+
+.figcapcol {
+    line-height: 0;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 2.5;
+    letter-spacing: .5px;
+    color: #fffffa;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.figcapcol p {
+    padding-left: .5em;
+}
+*/
+
+
+/*--------Section2---------*/
+
+.info_part1 {
+    background-color: #545454;
+    color: #CBFF4D;
+}
+
+.info_part2 {
+    background-color: #fff;
+    color: #545454;
+}
+
+.sub_header {
+    margin: 0;
+    font-size: 2em;
+    font-weight: 300;
+    border-bottom: 1px dotted #545454;
+}
+
+.about_us {
+    border: none;
+    font-size: 3em;
+    text-align: center;
+}
+
+.contact_us {
+    font-size: 2.5em;
+}
+
+.welder {
+    max-width: 15em;
+    float: right;
+    padding-right: 1em;
+}
+
+
+/*--------Section3---------*/
+
+.section3,
+.section4,
+.section5 {
+    padding: .75em;
+}
+
+
+/*--------Section5---------*/
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+    background-image: url('../img/phone.svg');
+}
+
+.contact-info li.email a {
+    background-image: url('../img/mail-with-circle.svg');
+}
+
+.mail {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info li.mail {
+    background-image: url('../img/address.svg');
+}
+
+
+/*---Footer----*/
+
+.main-footer {
+    text-align: center;
+    background: #69747C;
+    color: #CBFF4D;
+    padding: 1em 0;
+    bottom: 0;
+}
+
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
+/*---------------------------
+--------MEDIA QUERIES--------
+---------------------------*/
+
+@media (min-width: 390px) {
+    .umfg,
+    .main_nav_ul {
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .umfg {
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .logo {
+        width: 18.75em;
+        height: 7.25em;
+    }
+    .main_nav_ul a {
+        -ms-flex-positive: 2;
+        flex-grow: 2;
+    }
+    .about_us {
+        padding: 2em 0;
+    }
+    /*-----BERMBUSTER------
+------CONTAINER-------*/
+    .content_page2 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .bermbuster img {
+        height: 60%;
+        width: 60%;
+    }
+}
+
+@media (min-width: 575px) {
+    .container1 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: auto;
+        background: none;
+        border-bottom: .5px solid #63D014;
+        background: url(../img/kanga_green_fade.png) top right no-repeat;
+    }
+    /*--------Page 2 -------------*/
+    .page2_container1 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: auto;
+        background: url(../img/kanga_green_fade.png) top right no-repeat;
+        background-color: #545454;
+        border-bottom: .5px solid #CBFF4D;
+    }
+    .page2_header h1 {
+        font-size: 5em;
+    }
+    .page2_header h5,
+    .page2_header h4 {
+        font-size: 1.2em;
+    }
+    .services_list h1 {
+        font-size: 2em;
+    }
+    .services_list h2 {
+        font-size: 1.75em;
+    }
+    /*-----BERMBUSTER------
+    ------CONTAINER-------*/
+    /*parent*/
+    .content_page2 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .bermbuster {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center;
+    }
+}
+
+
+/*child*/
+
+.bermbuster img {
+    margin: 1em 0 0 1em;
+    height: 12.5em;
+    width: 12.5em;
+}
+
+
+/*child*/
+
+
+/*parent*/
+
+.bermbusterwords {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+/*child*/
+
+.bermbusterwords1 {
+    margin-top: 2em;
+    width: auto;
+}
+
+
+/*child*/
+
+.bermbusterwords2 {
+    text-align: right;
+}
+
+
+/*------Header and Welding Header------*/
+
+.header_container2 {
+    background: url(../img/welding4_blur_overlay.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    width: 100%;
+}
+
+.header2_words h2 {
+    font-size: 3em;
+}
+
+.header2_words h3 {
+    font-size: 1em;
+}
+
+.header2_words p {
+    font-size: 1em;
+}
+
+.umfg,
+.main_nav {
+    border-bottom: none;
+    justify-content: flex-start;
+    -ms-justify-content: flex-start;
+}
+
+.main_nav {
+    border-top: none;
+}
+
+.umfg {
+    -ms-flex-positive: 7;
+    flex-grow: 7;
+}
+
+.main_nav {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.main_nav_ul li {
+    margin: 0 1em;
+}
+
+.item {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.logo {
+    width: 13.125rem;
+    height: 5.0625rem;
+}
+
+.second_header {
+    font-size: 2em;
+}
+
+
+/*-------Our Products and Services----------*/
+
+.col {
+    width: 48%;
+}
+
+.figcapcol {
+    font-size: 1.5em;
+}
+
+.first {
+    float: left;
+}
+
+.second {
+    float: right;
+}
+
+
+}
+@media (min-width: 768px) {
+    .container1 {
+        border-bottom: .5px solid #CBFF4D;
+    }
+    
+    .page2_container1 {
+        border-bottom: .5px solid #CBFF4D;
+    }
+    
+    .header_container2 {
+        background: url(../img/welding4_blur_overlay.png) no-repeat center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+    
+    .downarrow {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 50%;
+        margin-left: -25px;
+        top: auto;
+        bottom: 50px;
+        margin-top: 0;
+        cursor: pointer;
+        background: url('../img/arrow_white.svg');
+        background-size: 50px 50px;
+        animation: down-prompt 3s infinite;
+        -webkit-animation: down-prompt 3s infinite;
+        -moz-animation: down-prompt 3s infinite;
+    }
+    
+    .logo {
+        padding-right: 15em;
+        width: 16.875rem;
+        height: 6.525rem;
+    }
+    /*--------Page 2-----------*/
+    
+    .services_list {
+        background: #545454 url("../img/welder.png") no-repeat 98% 95%;
+        background-size: 20em;
+    }
+    /*--------Section4---------*/
+    
+    .section3,
+    .section4 {
+        padding: 0;
+    }
+    
+    .section3 .sub_header,
+    .section4 .sub_header {
+        border-bottom: none;
+    }
+    
+    .section3 {
+        float: left;
+        width: 48%;
+        border-right: 1px dotted #CBFF4D;
+        padding-left: .75em;
+    }
+    
+    .section4 {
+        width: 49%;
+        float: right;
+    }
+}
+@media (min-width: 872px) {
+    .container1 {
+        position: relative;
+    }
+    
+    .page2_container1 {
+        position: relative;
+    }
+    
+    .header2_words {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .header2_words h2 {
+        font-weight: 500;
+        font-size: 3em;
+    }
+    
+    .header2_words h3 {
+        font-weight: 300;
+        font-size: 1.5em;
+    }
+    
+    .header2_words p {
+        font-weight: 300;
+        font-size: 1em;
+    }
+    /*
+    .figcapcol {
+        font-size: 1.5em;
+        line-height: 2.5em;
+    }
+*/
+    /*-----BERMBUSTER------
+    ------CONTAINER-------*/
+    
+    .bermbuster img {
+        height: 14em;
+        width: 14em;
+    }
+    /*child*/
+    /*parent*/
+    
+    .bermbusterwords {
+        margin-top: 3em;
+    }
+    
+    .bermbusterwords1 h2 {
+        font-size: 3rem;
+    }
+}
+@media (min-width: 1025px) {
+    .content_page2 {
+        max-width: 65rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media (min-width: 1366px) {
+    .content,
+    .content_page2 {
+        max-width: 75rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@-webkit-keyframes down-prompt {
+    0%,
+    70% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    
+    80% {
+        -webkit-transform: translate3d(0, -7px, 0);
+        transform: translate3d(0, -7px, 0);
+    }
+    
+    85% {
+        -webkit-transform: translate3d(0, 37px, 0);
+        transform: translate3d(0, 37px, 0);
+    }
+    
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+}
